@@ -74,6 +74,11 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics.
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
+        If the user's state is stored on the session instead of the JSON web token, this can make it more difficult for the user to pick up where they left off when a session is over.
 2. What does `bcryptjs` do to help us store passwords in a secure manner?
+        It hashes passwords.
 3. How are unit tests different from integration and end-to-end testing?
+        Unit tests are done individually to make sure each piece works independently. End to end and integration testing make sure that the function works with another to make sure the whole thing works together.
 4. How does _Test Driven Development_ change the way we write applications and tests?
+        Because the tests always come first to make sure things work in the beginning.  It saves time in the long run. 
+        
