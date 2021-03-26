@@ -22,4 +22,4 @@ const usernameAvailability = async (req, res, next) => {
 module.exports = {
   validateCreds,
   usernameAvailability
-}
+}     
